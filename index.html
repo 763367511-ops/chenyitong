@@ -60,7 +60,7 @@ body{font-family:'Microsoft YaHei','PingFang SC',system-ui,sans-serif;background
 <div class="page-header">
   <div class="label">📖 点击单词即可朗读</div>
   <h1>陈怡潼 · 英语单词朗读</h1>
-  <div class="sub">6个单元 · 点击朗读 · 慢速练习</div>
+  <div class="sub">8个单元 · 点击朗读 · 慢速练习</div>
 </div>
 <div class="search-wrap">
   <span class="search-icon">🔍</span>
@@ -94,6 +94,8 @@ const catMeta={
   u4:{label:'Unit 4',name:'发明与制作',color:'#2B6CB0',bg:'#ebf4ff'},
   u5:{label:'Unit 5',name:'健康与疾病',color:'#97266D',bg:'#fce4f0'},
   u6:{label:'Unit 6',name:'旅行与文化',color:'#B7791F',bg:'#fef8e6'},
+  u7:{label:'专有名词',name:'人名与地名',color:'#2C7A7B',bg:'#e6fffa'},
+  u8:{label:'剧本词汇',name:'Words in Plays',color:'#553C9A',bg:'#faf0ff'},
 };
 const words={
 u1:[
@@ -111,7 +113,7 @@ u1:[
   {word:'surprised',mn:'吃惊的',ic:'😲'},
   {word:'peel',mn:'（水果和蔬菜的）外皮',ic:'🍊'},
   {word:'health',mn:'健康（状况）',ic:'❤️'},
-  {word:'than',mn:'比（用于两个事物的比较）',ic:'↔️'},
+  {word:'than',mn:'比（用于两个事物的比较，引出第二个事物）',ic:'↔️'},
   {word:'grey',mn:'灰色；灰色的',ic:'🌫️'},
   {word:'dinosaur',mn:'恐龙',ic:'🦕'},
   {word:'line',mn:'线，线条',ic:'📏'},
@@ -186,6 +188,38 @@ u6:[
   {word:'splash',mn:'溅湿，往……上泼',ic:'💦'},
   {word:'cultural',mn:'文化的；文化上的',ic:'🎭'},
   {word:'pretty',mn:'好看的',ic:'🌺'},
+],
+u7:[
+  {word:'Midas',mn:'弥达斯（人名）',ic:'👑'},
+  {word:'Jacob',mn:'雅各布（人名）',ic:'👨'},
+  {word:'Duncan',mn:'邓肯（人名）',ic:'👨'},
+  {word:'Cinderella',mn:'灰姑娘',ic:'👸'},
+  {word:'Alex',mn:'亚历克斯（人名）',ic:'🧑'},
+  {word:'Goldilocks',mn:'金发姑娘',ic:'👱‍♀️'},
+  {word:'Green',mn:'格林（姓氏）',ic:'🟢'},
+  {word:'John',mn:'约翰（人名）',ic:'👨'},
+  {word:'Penny',mn:'彭妮（人名）',ic:'👩'},
+  {word:'Mount Qomolangma',mn:'珠穆朗玛峰',ic:'🏔️'},
+  {word:'the Sahara',mn:'撒哈拉沙漠',ic:'🏜️'},
+  {word:'the Antarctic Desert',mn:'南极荒漠',ic:'🧊'},
+  {word:'the Nile',mn:'尼罗河',ic:'🏞️'},
+  {word:'Asia',mn:'亚洲',ic:'🌏'},
+  {word:'the Qinghai-Tibet Plateau',mn:'青藏高原',ic:'🏔️'},
+  {word:'the Roof of the World',mn:'世界屋脊',ic:'🌍'},
+  {word:'France',mn:'法国',ic:'🇫🇷'},
+  {word:'the London Eye',mn:'伦敦眼',ic:'🎡'},
+  {word:'Big Ben',mn:'大本钟',ic:'🕰️'},
+  {word:'Buckingham Palace',mn:'白金汉宫',ic:'🏰'},
+  {word:'Tower Bridge',mn:'塔桥',ic:'🌉'},
+  {word:'the Danyang-Kunshan Grand Bridge',mn:'丹昆特大桥',ic:'🌉'},
+  {word:'the Eiffel Tower',mn:'埃菲尔铁塔',ic:'🗼'},
+  {word:'the Water-splashing Festival',mn:'泼水节',ic:'💦'},
+  {word:'the Dai New Year',mn:'傣历新年',ic:'🎊'},
+],
+u8:[
+  {word:'drawing',mn:'图画；素描',ic:'🎨'},
+  {word:'couch',mn:'长沙发',ic:'🛋️'},
+  {word:'couch potato',mn:'老泡在电视机前的人',ic:'📺'},
 ],
 };
 const anims=['animation:bounce 0.8s infinite','animation:spin 1s linear infinite','animation:pulse 0.7s infinite','animation:float 1.2s infinite','animation:shake 0.5s infinite','animation:wave 0.8s infinite','animation:swing 1s infinite'];
